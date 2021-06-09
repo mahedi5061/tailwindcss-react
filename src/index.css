@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.menu-card {
+  @tailwind flex flex-col justify-center items-center bg-white h-screen font-mono py-40;
+}
+
+.center-content {
+   @tailwind flex flex-col justify-center items-center;
+}
